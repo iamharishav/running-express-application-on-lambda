@@ -1,0 +1,24 @@
+{
+  "name": "running-express-application-on-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "locally": "node -e \"console.log(require('./index').handler({}));\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamharishav/running-express-application-on-lambda.git"
+  },
+  "author": "Harisha V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamharishav/running-express-application-on-lambda/issues"
+  },
+  "homepage": "https://github.com/iamharishav/running-express-application-on-lambda#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.6",
+    "express": "^4.17.1"
+  }
+}
